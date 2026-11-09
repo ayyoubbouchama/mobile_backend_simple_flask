@@ -1,2 +1,10 @@
+[project]
+name = "mobile-backend-simple-flask"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "Flask==3.0.3"
+]
+
 [tool.vercel]
 entrypoint = "backend:app"
